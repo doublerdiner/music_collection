@@ -25,4 +25,18 @@ artist_repository.select(1)
 album_repository.select_all()
 album_repository.select(1)
 
+artist_repository.albums(artist_1)
+
+artist_1.name = ("Devo")
+artist_repository.update(artist_1)
+
+album_1.genre = "Rock"
+album_repository.update(album_1)
+
+album_repository.delete(album_3.id)
+
+artist_repository.delete(artist_2.id)
+
+
+
 pdb.set_trace()
