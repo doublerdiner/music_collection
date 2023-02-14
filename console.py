@@ -19,4 +19,10 @@ album_3 = Album("Syro", "Electronica", artist_2)
 artist_repository.save(artist_2)
 album_repository.save(album_3)
 
+artist_repository.select_all()
+artist_repository.select(1)
+
+album_repository.select_all()
+album_repository.select(1)
+
 pdb.set_trace()
